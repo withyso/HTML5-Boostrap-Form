@@ -23,20 +23,20 @@
                         <div class="col-5">
                             <div class="card-number">
                                 <label for="card-n" class="form-label mb-1"> Card #</label>
-                                <input type="text" class="form-control" id="card-n" placeholder="XXXXXXXXXXXXX">
+                                <input type="number" class="form-control" id="card-n" placeholder="XXXXXXXXXXXXX">
                             </div>
                         </div>
                         <div class="col-3">
                             <div class="cvc-number">
                                 <label for="card-cvc" class="form-label mb-1">CVC</label>
-                                <input type="text" class="form-control" id="card-cvc" placeholder="0000">
+                                <input type="number" class="form-control" id="card-cvc" placeholder="0000">
                             </div>
                         </div>
                         <div class="col-4">
-                            <div class="card-amount">
-                                <i class="fa-solid fa-dollar-sign" style="position: absolute; top: 26%; left: 65%; z-index: 1;"></i> 
+                            <div class="card-amount" style="position: relative;">
+                                <i class="fa-solid fa-dollar-sign" style="position: absolute; top: 40px; left: -12px;"></i> 
                                 <label for="card-at" class="form-label mb-1"> Ammount </label>
-                                <input type="text" class="form-control ammount-dollar" id="card-at" placeholder="Ammount" style="position: relative;">
+                                <input type="number" class="form-control ammount-dollar" id="card-at" placeholder="Ammount">
                             </div>
                         </div>
                     </div>
@@ -45,17 +45,17 @@
                     <div class="row">
                         <div class="first-name col ps-0">
                             <label for="namefirst" class="form-label mb-1"> First name </label>
-                            <input type="text" class="form-control" id="namefirst" placeholder="">
+                            <input type="text" class="form-control" id="namefirst" placeholder="John">
                         </div>
                         <div class="last-name col pe-0">
                             <label for="namelast" class="form-label mb-1"> Last name </label>
-                            <input type="text" class="form-control" id="namelast" placeholder="">
+                            <input type="text" class="form-control" id="namelast" placeholder="Doe">
                         </div>
                     </div>     
                     <div class="row">
                         <div class="col ps-0 pe-2 me-1">
                             <label for="cityname" class="form-label mb-2 mt-2"> City </label>
-                            <input type="text" class="form-control" id="cityname" placeholder="">
+                            <input type="text" class="form-control" id="cityname" placeholder="Baltimore">
                         </div>
                         <div class="col-3 ps-2.5 pe-3">
                             <label for="stateName" class="form-label mb-2 mt-2"> State </label>
@@ -68,7 +68,7 @@
                         </div>   
                         <div class="col-3 ps-2.5 pe-0">
                             <label for="postalCode" class="form-label mb-2 mt-2"> Postal Code </label>
-                            <input type="text" class="form-control" id="postalCode" placeholder="">
+                            <input type="number" class="form-control" id="postalCode" placeholder="">
                         </div>   
                     </div>
                     <div class="row pb-4">
